@@ -1,3 +1,3 @@
 #pragma once
 
-double calculate(char* expression);
+double calculate(const char* expression);

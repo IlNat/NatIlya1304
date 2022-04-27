@@ -12,6 +12,7 @@ void run(){
     while (true) {
         cout << "Enter expression: ";
         cin.getline(buffer, sizeof(buffer));
+        cout << buffer << '\n';
         if (strncmp("exit", buffer, 4) == 0) {
             break;
         }
